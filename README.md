@@ -44,3 +44,6 @@ Dive-Deeper-with-Real-Time-Underwater-Enhancement/
 ├── README.md              # Project documentation
 └── utils/loader.py , loss.py # Optional dataset reference
 
+## Run command
+python main.py --encoder ./checkpoints/current_best_model_encoder.pth --decoder ./checkpoints/current_best_model_decoder.pth --mode color
+python main.py --encoder ./checkpoints/current_best_model_3_encoder.pth --decoder ./checkpoints/current_best_model_3_decoder.pth --mode no_color
